@@ -31,11 +31,11 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LALT &kp LSHFT>,
+                <&kp LALT>,
                 <&macro_tap>,
-                <&kp MINUS>,
+                <&kp KP_MINUS>,
                 <&macro_release>,
-                <&kp LSHFT &kp LALT>;
+                <&kp LALT>;
         };
 
         split_horizontal: split_horizontal {
@@ -43,11 +43,11 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LALT &kp LSHFT>,
+                <&kp LALT>,
                 <&macro_tap>,
-                <&kp EQUAL>,
+                <&kp KP_PLUS>,
                 <&macro_release>,
-                <&kp LSHFT &kp LALT>;
+                <&kp LALT>;
         };
     };
 
