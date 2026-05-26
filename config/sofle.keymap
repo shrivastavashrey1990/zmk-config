@@ -1,3 +1,4 @@
+
 /*
  * Copyright (c) 2020 The ZMK Contributors
  *
@@ -31,11 +32,13 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LALT &kp LSHFT>,
+                <&kp LALT>,
+                <&kp LSHFT>,
                 <&macro_tap>,
                 <&kp MINUS>,
                 <&macro_release>,
-                <&kp LSHFT &kp LALT>;
+                <&kp LSHFT>,
+                <&kp LALT>;
         };
 
         split_horizontal: split_horizontal {
@@ -43,11 +46,13 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LALT &kp LSHFT>,
+                <&kp LALT>,
+                <&kp LSHFT>,
                 <&macro_tap>,
                 <&kp EQUAL>,
                 <&macro_release>,
-                <&kp LSHFT &kp LALT>;
+                <&kp LSHFT>,
+                <&kp LALT>;
         };
     };
 
